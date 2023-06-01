@@ -1,0 +1,63 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    background-image: url("../../../public/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cricket-box {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+    backdrop-filter: blur(3px);
+}
+
+button {
+    margin: 10px;
+    padding: 5px;
+    width: 55px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.final-score {
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+.score {
+    background-color: rgb(84, 84, 84);
+    padding: 10px;
+    color: white;
+}
+
+.history {
+    width: 47rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.runs {
+    color: white;
+    background-color: green;
+}
+.wicket {
+    color: white;
+    background-color: red;
+}
+.extraRuns {
+    color: white;
+    background-color: blue;
+}
+
+span {
+    padding: 5px;
+    margin: 5px;
+}
